@@ -3,6 +3,8 @@
 Una simulación 3D del sistema solar desarrollada con Python, Pygame y OpenGL que permite visualizar los planetas orbitando alrededor del Sol con controles interactivos y cámara dinámica.
 
 ---
+<img width="1366" height="768" alt="Captura de pantalla 2025-11-14 234203" src="https://github.com/user-attachments/assets/8686bda7-bf13-404c-851a-aebb44502d71" />
+---
 
 ## Tabla de Contenidos
 
@@ -100,8 +102,8 @@ Si Python no está instalado, descárgalo desde [python.org](https://www.python.
 Descarga el proyecto desde GitHub:
 
 ```bash
-git clone https://github.com/tu-usuario/sistema-solar-3d.git
-cd sistema-solar-3d
+git clone https://github.com/EdD4rk/ProyectoSistemaSolar.git
+cd ProyectoSistemaSolar
 ```
 
 O descarga el archivo ZIP desde GitHub y extráelo en una carpeta de tu preferencia.
@@ -176,8 +178,8 @@ PyOpenGL-accelerate  3.x.x
 Asegúrate de que la carpeta del proyecto tenga la siguiente estructura:
 
 ```
-sistema-solar-3d/
-├── main.py
+ProyectoSistemaSolar/
+├── SistemaSolar.py
 └── images/
     ├── universo.png
     ├── Sun.png
@@ -195,10 +197,10 @@ sistema-solar-3d/
 
 ### 9. Ejecutar el Proyecto
 
-Finalmente, ejecuta el script `main.py` para iniciar el sistema solar 3D:
+Finalmente, ejecuta el script `SistemaSolar.py` para iniciar el sistema solar 3D:
 
 ```bash
-python main.py
+python SistemaSolar.py
 ```
 
 Si todo está configurado correctamente, se abrirá una ventana mostrando el sistema solar en 3D.
@@ -283,9 +285,9 @@ Presiona `ESC` cuando estés en vista general, o cierra la ventana directamente.
 ## Estructura del Proyecto
 
 ```
-sistema-solar-3d/
+ProyectoSistemaSolar/
 │
-├── main.py                          # Archivo principal de la aplicación
+├── SistemaSolar.py                  # Archivo principal de la aplicación
 ├── README.md                        # Este archivo de documentación
 ├── requirements.txt                 # Lista de dependencias (opcional)
 │
@@ -304,7 +306,7 @@ sistema-solar-3d/
 
 ### Descripción de Archivos
 
-#### `main.py`
+#### `SistemaSolar.py`
 Archivo principal que contiene toda la lógica del programa:
 - Inicialización de Pygame y OpenGL
 - Configuración de iluminación y materiales
@@ -614,7 +616,8 @@ transition_speed = 0.05  # Aumenta para más rápido, disminuye para más lento
 ```
 
 ---
-
+<img width="1052" height="732" alt="image" src="https://github.com/user-attachments/assets/10aa8657-e262-40e2-8b80-b9c755b88282" />
+---
 
 ## Información del Proyecto
 
